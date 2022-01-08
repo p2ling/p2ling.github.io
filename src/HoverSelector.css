@@ -1,0 +1,8 @@
+.hover-selector svg:not(.active) {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-selector:hover svg {
+  opacity: 1;
+}
