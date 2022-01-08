@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/p2ling/static/css/main.9f4b277c.css",
+    "main.js": "/p2ling/static/js/main.30b82929.js",
+    "static/js/787.259bf00e.chunk.js": "/p2ling/static/js/787.259bf00e.chunk.js",
+    "static/media/pixel portrait.png": "/p2ling/static/media/pixel portrait.b74442cb0e749fbcb55b.png",
+    "index.html": "/p2ling/index.html",
+    "static/media/arrow.svg": "/p2ling/static/media/arrow.7c36c588a88b5bc231cd1d6753160a2b.svg",
+    "main.9f4b277c.css.map": "/p2ling/static/css/main.9f4b277c.css.map",
+    "main.30b82929.js.map": "/p2ling/static/js/main.30b82929.js.map",
+    "787.259bf00e.chunk.js.map": "/p2ling/static/js/787.259bf00e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f4b277c.css",
+    "static/js/main.30b82929.js"
+  ]
+}
