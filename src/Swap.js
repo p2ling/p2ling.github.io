@@ -54,7 +54,7 @@ export default function Swap(props) {
           <div className='flex justify-between mb-4 mt-1 items-center'>
             <div className='flex flex-col'>
               <div className='flex items-center cursor-pointer' onClick={() => setShowTradeOptions(!showTradeOptions)}>
-                {tradeOption}<img src={next} className={`h-4 ml-2 ${showTradeOptions ? "rotate-90" : ''}`} />
+                {tradeOption}<img src={next} alt="refresh" className={`h-4 ml-2 ${showTradeOptions ? "rotate-90" : ''}`} />
               </div>
             </div>
 
@@ -79,7 +79,7 @@ export default function Swap(props) {
             </div>
           </div> : []}
 
-          <button onClick={() => swapForAndTo()} className='flex justify-center my-4'><img ref={refreshEl} src={refresh} className='h-6' /></button>
+          <button onClick={() => swapForAndTo()} className='flex justify-center my-4'><img alt="refresh" ref={refreshEl} src={refresh} className='h-6' /></button>
 
           <div className='flex justify-between text-sm items-center'>
             <div>For(estimated)</div>
@@ -87,7 +87,7 @@ export default function Swap(props) {
           </div>
 
           <div className='flex justify-between mb-4 mt-1 items-center space-x-48 items-center'>
-            <div className='flex items-center' onClick={() => setShowForOptions(!showForOptions)}><div>{tradeForOption}</div><img src={next} className='h-4 ml-2' /></div>
+            <div className='flex items-center' onClick={() => setShowForOptions(!showForOptions)}><div>{tradeForOption}</div><img alt="refresh" src={next} className='h-4 ml-2' /></div>
             <label htmlFor="forInput" className="flex items-center justify-center relative">
               <input id="forInput" type="number" min='0' className="flex rounded-lg w-96 h-10 focus:outline-0 p-2 flex-1 " placeholder="Amount" />
             </label>

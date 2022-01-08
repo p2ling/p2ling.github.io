@@ -92,7 +92,7 @@ export default function LiquidityPool() {
             </div>
           </div>
 
-          <button onClick={() => upgradeDowngrade()} className='flex justify-center py-4'><img ref={refreshEl} src={refresh} className='h-6' /></button>
+          <button onClick={() => upgradeDowngrade()} className='flex justify-center py-4'><img alt="refresh" ref={refreshEl} src={refresh} className='h-6' /></button>
 
           <div className="flex w-info-box-inner items-center w-full">
             <div className="flex flex-col justify-center">

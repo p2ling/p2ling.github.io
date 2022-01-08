@@ -30,7 +30,7 @@ export default function Accumulators() {
             </div>
             <button className=" flex flex-1 items-center space-x-2 justify-center" onClick={() => setShowInfo(!showInfo)}>
               <div>APR</div>
-              <img src={info} className="h-6" />
+              <img src={info} className="h-6" alt="refresh" />
             </button>
 
             <div className=" text-center flex flex-col space-y-4 flex-1"></div>
